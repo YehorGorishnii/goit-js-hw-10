@@ -1,0 +1,85 @@
+@import url(./restayl.css);
+
+.form {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.form>label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input[name="delay"] {
+    width: 360px;
+
+    height: 40px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    padding: 0;
+    padding-left: 16px;
+}
+
+input[name="delay"]:hover,
+input[name="delay"]:focus {
+    border: 1px solid #000000;
+}
+
+input[name="delay"]:active {
+    outline: none;
+    border-color: #4E75FF;
+    color: #000000;
+}
+
+fieldset {
+    width: 360px;
+
+    height: 64px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    padding: 0;
+    padding-left: 16px;
+    margin: 0;
+    display: flex;
+    gap: 48px;
+}
+
+button {
+    width: 377.6px;
+    height: 40px;
+    top: 226px;
+    left: 156px;
+    padding: 8px, 16px, 8px, 16px;
+    border-radius: 8px;
+    gap: 10px;
+    background-color: #4E75FF;
+    border-radius: 4px;
+    border-color: #4E75FF;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+}
+
+button:hover,
+button:focus {
+    background-color: #6C8CFF;
+    border-color: #6C8CFF;
+}

@@ -63,7 +63,7 @@ startBtn.addEventListener('click', () => {
       secondsValue.textContent = addLeadingZero(leadingTime.seconds);
     } else {
       clearInterval(dateInterval);
-      startBtn.disabled = false;
+      startBtn.disabled = true;
     }
   }, 1000);
 });
